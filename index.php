@@ -15,7 +15,7 @@ if (!function_exists("debug_error_handler")) {
 
 // Lecture de la requête
 if (!isset($_GET['index'])) {
-  echo "<tt>Usage : https://iww.inria.fr/grains3.0/tetris-botte-serv/?index=['min','max',&lt;<i>valeur-de-l'index</i>>]</tt><hr>";
+  echo "<tt>Usage : https://iww.inria.fr/mecsci/grains3.0/tetris-botte-serv/?index=['min','max',&lt;<i>valeur-de-l'index</i>>]</tt><hr>";
   exit;
 }
 $index = $_GET['index'];
